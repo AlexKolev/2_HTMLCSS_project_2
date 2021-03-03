@@ -111,16 +111,22 @@ body{
     background-color: #FFFFFF;
     height: 10px;
     width: 10px;
+    border: 1px solid #D3C1AD;
 }
 .header_circle_item:not(:last-of-type){
     margin-right: 10px;
 }
-.header_circle_item:nth-of-type(2){
+.header_circle_item:hover{
+    transform: scale(1.5);
+    background-color: unset;
+    border: 1px solid #D3C1AD;
+}
+/* .header_circle_item:nth-of-type(2){
     height: 15px;
     width: 15px;
     border: 1px solid #D3C1AD;
     background-color: unset;
-}
+} */
 .services{
     padding: 90px 0 85px;
 }
