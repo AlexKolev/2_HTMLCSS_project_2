@@ -220,7 +220,7 @@ body{
     color: #555555;
     text-align: center;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 9;
 }
 .p_project_title{
     font-family: Montserrat;
@@ -356,4 +356,197 @@ input[type="radio"]:checked + .project_button_radio{
     left: 0;
     width: 100%;
     z-index: -100;
+}
+.mobil_devices{
+    padding-top: 80px;
+}
+.figure__mobil_devices{
+    display: flex;
+    justify-content: center;
+}
+.figcaption__mobil_devices{
+    padding-top: 110px;
+}
+.h4__mobil_devices{
+    font-family: Raleway;
+    font-size: 30px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.p__mobil_devices{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #8C8C8C;
+    margin-bottom: 50px;
+}
+.mobil_devices_list-item{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #8C8C8C;
+    padding-left: 65px;
+}
+.mobil_devices_list-item::before{
+    content: url(img/circle_arrow.png);
+    margin-right: 5px;
+}
+.counters{
+    background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+}
+.counters_item{
+    text-align: center;
+    position: relative;
+}
+.counters_item:not(:last-of-type){
+    margin-right: 70px;
+}
+.h3_counters_item{
+    font-family: Montserrat;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.p_counters_item{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #C7B299;
+}
+.counters_item::after{
+    content: '';
+    width: 31%;
+    height: 2px;
+    background-color: #FFFFFF;
+    display: block;
+    position: absolute;
+    transform: translate(50%, 0);
+    bottom: -15px;
+    right: 50%;
+}
+.recent_posts{
+    padding: 100px 0 38px 0;
+}
+.h3_recent_posts{
+    font-family: Raleway;
+    font-size: 30px;
+    text-align: center;
+    color: #555555;
+}
+.p_recent_posts{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #8C8C8C;
+    width: 770px;
+    margin: 0 auto 30px auto ;
+}
+.wrapper_recent_posts_item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.recent_posts_item{
+    display: inline-block;
+    width: 31%;
+    position: relative;
+}
+.recent_posts_item__img-wrapper{
+    position: relative;
+}
+.img_recent_posts{
+    /* margin-bottom: 30px; */
+    width: 100%;
+}
+
+.recent_posts_item__action-wrapper {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .recent_posts_item:hover .recent_posts_item__action-wrapper {
+    display: flex;
+  }
+ 
+  .recent_post_item_date{
+    position: absolute;
+    top: 17px;
+    left: 23px;
+    border-radius: 3px;
+}
+.recent_post_item_date_num{
+    background-color: #363636;
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 6px 6px 3px 6px;
+}
+.recent_posts_item:hover .recent_post_item_date_num {
+    background-color:#C7B199;
+  }
+.recent_post_item_date_month{
+    background-color: #242424;;
+    font-family: Roboto;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 5px 0;
+    text-align: center;
+}
+.recent_posts_item:hover .recent_post_item_date_month {
+    background-color:#A48D71;
+  }
+.figcaption_recent_posts_item{
+    border-bottom: 1px solid #B2B2B2;
+    border-left: 1px solid #B2B2B2;
+    border-right: 1px solid #B2B2B2;
+    padding-left: 23px;
+}
+.recent_posts_item:hover .figcaption_recent_posts_item {
+    background-color: #352F2D;
+}
+.h4_recent_posts_item{
+    font-family: Raleway;
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.recent_posts_item:hover .h4_recent_posts_item {
+    color: #C7B299;
+}
+.p_recent_posts_item{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.recent_posts_item:hover .p_recent_posts_item {
+    color: #FFFFFF;
+  }
+.p_link_recent_posts_item{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #C7B299;
+    margin-bottom: 20px;
+}
+.svg_link_recent_posts_item{
+    fill :#C7B299;
+    margin-left: 9px;
+}
+.svg__nav_recent_posts{
+    text-align: center;
+}
+.svg_left_recent_posts{
+    margin-right: 18px;
+}
+.svg_right_recent_posts{
+    transform: rotate(180deg);
 }
