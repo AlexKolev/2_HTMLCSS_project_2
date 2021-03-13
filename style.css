@@ -550,3 +550,8 @@ input[type="radio"]:checked + .project_button_radio{
 .svg_right_recent_posts{
     transform: rotate(180deg);
 }
+.partners{
+    background-image: url(img/bg_partners.png);
+    background-size: cover;
+    padding: 140px 425px;
+}
